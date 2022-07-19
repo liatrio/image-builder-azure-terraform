@@ -34,7 +34,7 @@ stage('Build') {
 ```
 
 ## What is installed on this image?
-- The Azure CLI(https://packages.microsoft.com/repos/azure-cli/)
+- The [Azure CLI](https://packages.microsoft.com/repos/azure-cli/)
 - Version [1.18.2](https://dl.google.com/go/go1.18.2.src.tar.gz) of the Go programming language
 - Version [4.5.1](https://github.com/mikefarah/yq/releases/download/v4.5.1/yq_linux_amd64) of yq, a command-line YAML, JSON and XML processor
 - Version [0.36.2](https://github.com/terraform-linters/tflint/releases/download/v0.36.2/tflint_linux_amd64.zip) of Terraform linter TFLint
