@@ -78,3 +78,4 @@ RUN mkdir -p /opt/tflint && \
     mv -vf tflint /usr/local/bin/tflint && \
     rm -rf /opt/tflint && \
     tflint -v
+    
