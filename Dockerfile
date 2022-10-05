@@ -4,9 +4,9 @@ LABEL org.opencontainers.image.source https://github.com/liatrio/builder-images
 
 ARG GO_VERSION=1.18.2
 ARG YQ_VERSION=4.5.1
-ARG TFLINT_VERSION=v0.36.2
-ARG TERRAFORM_VERSION=1.2.5
-ARG TERRAGRUNT_VERSION=v0.38.4
+ARG TFLINT_VERSION=v0.39.3
+ARG TERRAFORM_VERSION=1.2.8
+ARG TERRAGRUNT_VERSION=v0.38.9
  
 ENV PATH="$PATH:/usr/local/go/bin"
 
@@ -78,3 +78,4 @@ RUN mkdir -p /opt/tflint && \
     mv -vf tflint /usr/local/bin/tflint && \
     rm -rf /opt/tflint && \
     tflint -v
+    
