@@ -14,7 +14,7 @@ jobs:
       publish: false
       repository: ghcr.io
       registry-username: ${{ github.actor }}
-      tag: "test"
+      tag: test
       image-name: ${{ github.event.repository.name }}
       nofail: true
     secrets:
